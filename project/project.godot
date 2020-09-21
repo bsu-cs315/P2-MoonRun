@@ -17,7 +17,7 @@ _global_script_class_icons={
 
 config/name="MoonRun"
 run/main_scene="res://src/Level.tscn"
-config/icon="res://icon.png"
+config/icon="res://assets/playerAnimations/tile_0081.png"
 
 [display]
 
