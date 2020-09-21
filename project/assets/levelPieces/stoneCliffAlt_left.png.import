@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/stoneCliffAlt_left.png-bb2a40038e6ee948f509afbf8309bf98.stex"
+path="res://.import/stoneCliffAlt_left.png-e1a5d404fa3851feee2878a3bbf2cca5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://project/assets/levelPieces/stoneCliffAlt_left.png"
-dest_files=[ "res://.import/stoneCliffAlt_left.png-bb2a40038e6ee948f509afbf8309bf98.stex" ]
+source_file="res://assets/levelPieces/stoneCliffAlt_left.png"
+dest_files=[ "res://.import/stoneCliffAlt_left.png-e1a5d404fa3851feee2878a3bbf2cca5.stex" ]
 
 [params]
 

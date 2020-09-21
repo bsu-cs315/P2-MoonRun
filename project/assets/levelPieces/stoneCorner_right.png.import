@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/stoneCorner_right.png-66dfa82614d9e3b0c72ad242acc20b95.stex"
+path="res://.import/stoneCorner_right.png-a4150aaa53d0770592c7a39e7ab1cde3.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://project/assets/levelPieces/stoneCorner_right.png"
-dest_files=[ "res://.import/stoneCorner_right.png-66dfa82614d9e3b0c72ad242acc20b95.stex" ]
+source_file="res://assets/levelPieces/stoneCorner_right.png"
+dest_files=[ "res://.import/stoneCorner_right.png-a4150aaa53d0770592c7a39e7ab1cde3.stex" ]
 
 [params]
 

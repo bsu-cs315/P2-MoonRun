@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="MoonRun"
-run/main_scene="res://project/src/Level.tscn"
+run/main_scene="res://src/Level.tscn"
 config/icon="res://icon.png"
 
 [display]

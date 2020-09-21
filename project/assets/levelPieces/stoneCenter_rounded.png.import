@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/stoneCenter_rounded.png-3b2758aa8d7661e97a80f55c149e2f30.stex"
+path="res://.import/stoneCenter_rounded.png-446112f2010d9692de2e749a734e8353.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://project/assets/levelPieces/stoneCenter_rounded.png"
-dest_files=[ "res://.import/stoneCenter_rounded.png-3b2758aa8d7661e97a80f55c149e2f30.stex" ]
+source_file="res://assets/levelPieces/stoneCenter_rounded.png"
+dest_files=[ "res://.import/stoneCenter_rounded.png-446112f2010d9692de2e749a734e8353.stex" ]
 
 [params]
 

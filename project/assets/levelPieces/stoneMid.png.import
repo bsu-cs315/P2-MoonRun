@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/stoneMid.png-7e25f1d3e4fe315aa1f689b3ccdc5901.stex"
+path="res://.import/stoneMid.png-2e32146185b10df044b654774c1a60a0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://project/assets/levelPieces/stoneMid.png"
-dest_files=[ "res://.import/stoneMid.png-7e25f1d3e4fe315aa1f689b3ccdc5901.stex" ]
+source_file="res://assets/levelPieces/stoneMid.png"
+dest_files=[ "res://.import/stoneMid.png-2e32146185b10df044b654774c1a60a0.stex" ]
 
 [params]
 

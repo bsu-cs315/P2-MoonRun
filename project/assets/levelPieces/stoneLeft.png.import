@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/stoneLeft.png-7c787377b4f87a8f8d7b26c535952d09.stex"
+path="res://.import/stoneLeft.png-b0da71d5e1758ca20ac83a77750445a1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://project/assets/levelPieces/stoneLeft.png"
-dest_files=[ "res://.import/stoneLeft.png-7c787377b4f87a8f8d7b26c535952d09.stex" ]
+source_file="res://assets/levelPieces/stoneLeft.png"
+dest_files=[ "res://.import/stoneLeft.png-b0da71d5e1758ca20ac83a77750445a1.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/stoneHill_left.png-78ce470ba23a426baade120badc10744.stex"
+path="res://.import/stoneHill_left.png-204dddd3ff0f446e7909664598267559.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://project/assets/levelPieces/stoneHill_left.png"
-dest_files=[ "res://.import/stoneHill_left.png-78ce470ba23a426baade120badc10744.stex" ]
+source_file="res://assets/levelPieces/stoneHill_left.png"
+dest_files=[ "res://.import/stoneHill_left.png-204dddd3ff0f446e7909664598267559.stex" ]
 
 [params]
 
