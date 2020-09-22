@@ -1,6 +1,6 @@
 extends KinematicBody2D
-export (int) var run_speed = 100
-export (int) var jump_speed = -400
+export (int) var run_speed = 200
+export (int) var jump_speed = -600
 export (int) var gravity = 1200
 
 var velocity = Vector2()
@@ -31,6 +31,8 @@ func get_input():
 			$AnimatedSprite.flip_h = true
 	elif down and is_on_floor():
 		$AnimatedSprite.play("Down")
+		set_collision_mask_bit(1, false)
+		
 	else:
 		_on_AnimatedSprite_animation_finished()
 

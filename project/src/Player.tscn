@@ -19,11 +19,6 @@ animations = [ {
 "name": "Standing",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 6 ), ExtResource( 1 ) ],
-"loop": false,
-"name": "Jumping",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 3 ), ExtResource( 7 ) ],
 "loop": true,
 "name": "Walking",
@@ -33,10 +28,17 @@ animations = [ {
 "loop": true,
 "name": "Down",
 "speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 1 ) ],
+"loop": false,
+"name": "Jumping",
+"speed": 5.0
 } ]
 
 [node name="Player" type="KinematicBody2D"]
 scale = Vector2( 3, 3 )
+collision_layer = 3
+collision_mask = 2
 script = ExtResource( 9 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -45,4 +47,7 @@ shape = SubResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 2 )
-animation = "Down"
+animation = "Standing"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
