@@ -6,9 +6,10 @@ This project is based on the requirements of my game programming class.
 https://bsu-cs315.github.io/P2-MoonRun/
 
 # Instructions For The Game
-Use the "Left" and "Right" arrow keys to move left and right. Use the "Spacebar" to jump and the "Down" arrow to crouch.
+Use the "Left" and "Right" arrow keys to move left and right. Use the "Spacebar" to jump and the "Down" arrow to crouch. Grab the coin and reach the flag!
 
 ## Project Report
+The beggining of this project turned out to be so much easier than the previous project. This is majorly due to already having the knowledge needed to get all of the basics set up. That being said, I still had troubles here and there. The main one that I ran into was making sure I reformatted my code correctly to fit the adopted style guide. Im very excited to see what more I can do with this project in the next iteration.
 
 - [ ] D-1: The repository link is submitted to Canvas before the project deadline.
 - [X] D-2: The repository contains a <code>README.md</code> file in its top-level directory.
@@ -22,9 +23,9 @@ Use the "Left" and "Right" arrow keys to move left and right. Use the "Spacebar"
 - [X] C-7: The player's character can move left and right, with its movement bounded by impassable tiles.
 - [X] C-8: The player's character can jump up and onto tiles.
 - [X] C-9: The player's character falls down when walking off a ledge.
-- [ ] B-1: The <code>README.md</code> file contains a personal reflection on the iteration and self-evaluation, as defined above.
+- [X] B-1: The <code>README.md</code> file contains a personal reflection on the iteration and self-evaluation, as defined above.
 - [X] B-2: The playable game is published to GitHub Pages and linked from the <code>README.md</code> file.
-- [ ] B-3: The source code and project structure comply with our adopted style guides.
+- [X] B-3: The source code and project structure comply with our adopted style guides.
 - [X] B-4: There is a sprite element in the level that the player can interact with, such as a collectible, an enemy, a book, or a switch.
 - [X] B-5: The camera follows the character through a world that is larger than one screen.
 - [X] A-1: Earn one star
@@ -33,6 +34,6 @@ Use the "Left" and "Right" arrow keys to move left and right. Use the "Spacebar"
 - [X] ⭐ Include tiles that can be passed in one direction, such as being able to jump up through a tile and land atop it.
 
 ## Third-Part Assets
-The tiles and player animations are from (Creative Commons Zero,CC0) http://creativecommons.org/publicdomain/zero/1.0/ This content is free to use in personal, educational and commercial projects. Support us by crediting Kenney or www.kenney.nl (this is not mandatory)
+The tiles, player animations, and coins are from (Creative Commons Zero,CC0) http://creativecommons.org/publicdomain/zero/1.0/ This content is free to use in personal, educational and commercial projects. Support us by crediting Kenney or www.kenney.nl (this is not mandatory)
 
 The letters on the win screen are from (CC0) http://creativecommons.org/publicdomain/zero/1.0/ You may use these graphics in personal and commercial projects. Credit (Kenney or www.kenney.nl) would be nice but is not mandatory.

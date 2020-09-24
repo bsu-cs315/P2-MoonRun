@@ -1,4 +1,4 @@
-[gd_scene load_steps=46 format=2]
+[gd_scene load_steps=47 format=2]
 
 [ext_resource path="res://assets/levelPieces/stoneCliff_left.png" type="Texture" id=1]
 [ext_resource path="res://assets/levelPieces/stone.png" type="Texture" id=2]
@@ -20,9 +20,9 @@
 [ext_resource path="res://assets/levelPieces/stoneHill_left.png" type="Texture" id=18]
 [ext_resource path="res://assets/levelPieces/flagBlue1.png" type="Texture" id=19]
 [ext_resource path="res://assets/levelPieces/SpaceBackground.png" type="Texture" id=20]
-[ext_resource path="res://src/Level.gd" type="Script" id=21]
+[ext_resource path="res://src/level.gd" type="Script" id=21]
 [ext_resource path="res://assets/levelPieces/flagBlue2.png" type="Texture" id=22]
-[ext_resource path="res://src/Flag.gd" type="Script" id=23]
+[ext_resource path="res://assets/levelPieces/coinGold.png" type="Texture" id=23]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 129, 0, 129, 128, 0, 128 )
@@ -460,16 +460,19 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 64, 0, 64 )
 } ]
 3/z_index = 0
 
-[sub_resource type="RectangleShape2D" id=22]
+[sub_resource type="RectangleShape2D" id=21]
 extents = Vector2( 69.9999, 67.9743 )
 
-[sub_resource type="SpriteFrames" id=21]
+[sub_resource type="SpriteFrames" id=22]
 animations = [ {
 "frames": [ ExtResource( 19 ), ExtResource( 22 ) ],
 "loop": true,
 "name": "FlagBlowing",
 "speed": 5.0
 } ]
+
+[sub_resource type="CircleShape2D" id=23]
+radius = 16.2109
 
 [node name="Level" type="Node2D"]
 script = ExtResource( 21 )
@@ -508,19 +511,30 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Area2D" type="Area2D" parent="."]
-script = ExtResource( 23 )
+[node name="Flag" type="Area2D" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Flag"]
 visible = false
 position = Vector2( 1910, 446 )
-shape = SubResource( 22 )
+shape = SubResource( 21 )
 
-[node name="Flag" type="AnimatedSprite" parent="Area2D"]
+[node name="FlagSprite" type="AnimatedSprite" parent="Flag"]
 position = Vector2( 1927.1, 447.83 )
-frames = SubResource( 21 )
+frames = SubResource( 22 )
 animation = "FlagBlowing"
-frame = 1
 speed_scale = 0.28
 playing = true
-[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_Area2D_body_entered"]
+
+[node name="Coin" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Coin"]
+visible = false
+position = Vector2( 481.336, 401.237 )
+shape = SubResource( 23 )
+
+[node name="CoinSprite" type="Sprite" parent="Coin"]
+position = Vector2( 481.055, 400.346 )
+scale = Vector2( 0.429688, 0.453125 )
+texture = ExtResource( 23 )
+[connection signal="body_entered" from="Flag" to="." method="_on_Flag_body_entered"]
+[connection signal="body_entered" from="Coin" to="." method="_on_Coin_body_entered"]
