@@ -5,7 +5,7 @@ This project is based on the requirements of my game programming class.
 
 https://bsu-cs315.github.io/P2-MoonRun/
 
-#Instructions For The Game
+# Instructions For The Game
 Use the "Left" and "Right" arrow keys to move left and right. Use the "Spacebar" to jump and the "Down" arrow to crouch.
 
 ## Project Report
