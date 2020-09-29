@@ -7,7 +7,7 @@ func _on_Flag_body_entered(body):
 	if body.get_name() == "Player":
 		if _coins_collected == 1:
 			print("Flag Collected!")
-			get_tree().change_scene("res://src/win_screen.tscn")
+			get_tree().change_scene("res://src/Win_Screen.tscn")
 
 
 

@@ -6,7 +6,7 @@
 [ext_resource path="res://assets/playerAnimations/tile_0079.png" type="Texture" id=5]
 [ext_resource path="res://assets/playerAnimations/tile_0083.png" type="Texture" id=6]
 [ext_resource path="res://assets/playerAnimations/tile_0089.png" type="Texture" id=7]
-[ext_resource path="res://src/player.gd" type="Script" id=9]
+[ext_resource path="res://src/Player.gd" type="Script" id=9]
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 8.56155
@@ -24,14 +24,14 @@ animations = [ {
 "name": "Walking",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 2 ) ],
-"loop": true,
-"name": "Down",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 6 ), ExtResource( 1 ) ],
 "loop": false,
 "name": "Jumping",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "Down",
 "speed": 5.0
 } ]
 

@@ -20,7 +20,7 @@
 [ext_resource path="res://assets/levelPieces/stoneHill_left.png" type="Texture" id=18]
 [ext_resource path="res://assets/levelPieces/flagBlue1.png" type="Texture" id=19]
 [ext_resource path="res://assets/levelPieces/SpaceBackground.png" type="Texture" id=20]
-[ext_resource path="res://src/level.gd" type="Script" id=21]
+[ext_resource path="res://src/Level.gd" type="Script" id=21]
 [ext_resource path="res://assets/levelPieces/flagBlue2.png" type="Texture" id=22]
 [ext_resource path="res://assets/levelPieces/coinGold.png" type="Texture" id=23]
 
@@ -522,6 +522,7 @@ shape = SubResource( 21 )
 position = Vector2( 1927.1, 447.83 )
 frames = SubResource( 22 )
 animation = "FlagBlowing"
+frame = 1
 speed_scale = 0.28
 playing = true
 
