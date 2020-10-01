@@ -41,6 +41,8 @@ The beggining of this project turned out to be so much easier than the previous 
 ## Juice
 The first bit of juice I added to my game was some dust particles that emit from the player when they land. This is to make it seem more realistic to being on the moon. 
 
+The second but of juice I added was the character doing a victory dance once they reach their goal. It gives the character more emotion and characteristics
+
 ## Third-Part Assets
 The tiles, player animations, and coins are from (Creative Commons Zero,CC0) http://creativecommons.org/publicdomain/zero/1.0/ This content is free to use in personal, educational and commercial projects. Support us by crediting Kenney or www.kenney.nl (this is not mandatory)
 

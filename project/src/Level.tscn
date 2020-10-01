@@ -522,6 +522,7 @@ shape = SubResource( 21 )
 position = Vector2( 1927.1, 447.83 )
 frames = SubResource( 22 )
 animation = "FlagBlowing"
+frame = 1
 speed_scale = 0.28
 playing = true
 
