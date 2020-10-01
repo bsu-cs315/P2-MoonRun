@@ -33,7 +33,13 @@ The beggining of this project turned out to be so much easier than the previous 
 - [X] ⭐ Include parallax scrolling in the background.
 - [X] ⭐ Include tiles that can be passed in one direction, such as being able to jump up through a tile and land atop it.
 
+##Juice
+The first bit of juice I added to my game was some dust particles that emit from the player when they land. This is to make it seem more realistic to being on the moon. 
+
 ## Third-Part Assets
 The tiles, player animations, and coins are from (Creative Commons Zero,CC0) http://creativecommons.org/publicdomain/zero/1.0/ This content is free to use in personal, educational and commercial projects. Support us by crediting Kenney or www.kenney.nl (this is not mandatory)
 
 The letters on the win screen are from (CC0) http://creativecommons.org/publicdomain/zero/1.0/ You may use these graphics in personal and commercial projects. Credit (Kenney or www.kenney.nl) would be nice but is not mandatory.
+
+## Primary Assets
+The MoonRun logo was created by Logan Summers

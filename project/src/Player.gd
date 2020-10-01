@@ -7,11 +7,30 @@ const GRAVITY = 1200
 
 var _velocity = Vector2()
 var _jumping = false
+var _is_falling = false
+var _landed = false
 
 
 func _physics_process(delta):
 	_get_input()
 	_velocity.y += GRAVITY * delta
+
+	
+	
+
+func _process(delta):
+	if !is_on_floor() and _velocity.y > 0:
+		_is_falling = true
+	
+	if _is_falling and is_on_floor():
+		_landed = true
+	
+	if _landed:
+		_landed = false
+		_is_falling = false
+		$FootDust.emitting = true
+	
+	
 	
 	if _jumping and is_on_floor():
 		_jumping = false
@@ -20,10 +39,10 @@ func _physics_process(delta):
 
 func _get_input():
 	_velocity.x = 0
-	var _right = Input.is_action_pressed("ui_right")
-	var _left = Input.is_action_pressed("ui_left")
-	var _jump = Input.is_action_just_pressed("ui_select")
-	var _down = Input.is_action_pressed("ui_down")
+	var _right = Input.is_action_pressed("walk_right")
+	var _left = Input.is_action_pressed("walk_left")
+	var _jump = Input.is_action_just_pressed("jump")
+	var _down = Input.is_action_pressed("crouch")
 
 	if _jump and is_on_floor():
 		_jumping = true
