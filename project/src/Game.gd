@@ -11,4 +11,6 @@ func _process(delta):
 		player_animated.play("Dance")
 		yield(player_animated, "animation_finished")
 		get_tree().change_scene("res://src/Win_Screen.tscn")
+	
+	$CanvasLayer/CoinsCollected.text = String(get_node("Level")._coins_collected)
 

@@ -30,7 +30,7 @@ The beggining of this project turned out to be so much easier than the previous 
 - [X] B-4: There is a sprite element in the level that the player can interact with, such as a collectible, an enemy, a book, or a switch.
 - [X] B-5: The camera follows the character through a world that is larger than one screen.
 - [ ] B-6: Include sound effects and music.
-- [ ] B-7: Include a HUD that tracks game-appropriate data such as score or time remaining.
+- [X] B-7: Include a HUD that tracks game-appropriate data such as score or time remaining.
 - [X] B-8: Include a clear example of <em>juice</em> and describe it in the <code>README.md</code>.
 - [ ] A-1: Include two clear examples of <em>juice</em> and describe them in the <code>README.md</code>.
 - [X] A-2: Earn two stars.
@@ -49,6 +49,8 @@ The tiles, player animations, and coins are from (Creative Commons Zero,CC0) htt
 The letters on the win screen are from (CC0) http://creativecommons.org/publicdomain/zero/1.0/ You may use these graphics in personal and commercial projects. Credit (Kenney or www.kenney.nl) would be nice but is not mandatory.
 
 The background music was made by Quarkstar Music and found on http://dig.ccmixter.org/files/Quarkstar/57369
+
+The font for the coin amount is "Xolonium". Copyright &copy; 2011-2016 Severin Meyer <sev.ch@web.de>, with Reserved Font Name Xolonium, SIL open font license version 1.1. Details are in `fonts/LICENSE.txt`.
 
 ## Primary Assets
 The MoonRun logo was created by Logan Summers
