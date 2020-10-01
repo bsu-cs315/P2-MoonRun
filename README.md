@@ -38,7 +38,7 @@ The beggining of this project turned out to be so much easier than the previous 
 - [X] ⭐ Include parallax scrolling in the background.
 - [X] ⭐ Include tiles that can be passed in one direction, such as being able to jump up through a tile and land atop it.
 
-##Juice
+## Juice
 The first bit of juice I added to my game was some dust particles that emit from the player when they land. This is to make it seem more realistic to being on the moon. 
 
 ## Third-Part Assets
