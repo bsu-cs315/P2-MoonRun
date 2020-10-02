@@ -50,6 +50,8 @@ The letters on the win screen are from (CC0) http://creativecommons.org/publicdo
 
 The background music was made by Quarkstar Music and found on http://dig.ccmixter.org/files/Quarkstar/57369
 
+The coin sound effect was made by ProjectsU012 and found on https://freesound.org/people/ProjectsU012/sounds/341695/
+
 The font for the coin amount is "Xolonium". Copyright &copy; 2011-2016 Severin Meyer <sev.ch@web.de>, with Reserved Font Name Xolonium, SIL open font license version 1.1. Details are in `fonts/LICENSE.txt`.
 
 ## Primary Assets
