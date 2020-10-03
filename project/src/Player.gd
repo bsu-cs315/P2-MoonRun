@@ -13,9 +13,11 @@ var _right
 var _left
 var _jump
 var _down
+var _screen_shake = false
 
 onready var dancing = false
 onready var movement = true
+
 
 
 func _physics_process(delta):
@@ -29,6 +31,9 @@ func _process(delta):
 	
 	if !is_on_floor() and _velocity.y > 0:
 		_is_falling = true
+		print(_velocity)
+		if _velocity.y > 600:
+			_screen_shake = true
 	
 	if _is_falling and is_on_floor():
 		_landed = true
@@ -37,6 +42,9 @@ func _process(delta):
 		_landed = false
 		_is_falling = false
 		$FootDust.emitting = true
+		if _screen_shake:
+			$Camera2D.shake()
+			_screen_shake = false
 	
 	
 	

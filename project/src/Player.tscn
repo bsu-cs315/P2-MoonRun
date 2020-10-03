@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://assets/playerAnimations/tile_0086.png" type="Texture" id=1]
 [ext_resource path="res://assets/playerAnimations/tile_0082.png" type="Texture" id=2]
@@ -11,6 +11,7 @@
 [ext_resource path="res://src/Player.gd" type="Script" id=9]
 [ext_resource path="res://assets/playerAnimations/tile_0080.png" type="Texture" id=10]
 [ext_resource path="res://assets/playerAnimations/tile_0087.png" type="Texture" id=11]
+[ext_resource path="res://src/Camera2D.gd" type="Script" id=12]
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 9.74409
@@ -66,6 +67,7 @@ frame = 4
 
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true
+script = ExtResource( 12 )
 
 [node name="FootDust" type="CPUParticles2D" parent="."]
 position = Vector2( 1.43051e-06, 10.3333 )

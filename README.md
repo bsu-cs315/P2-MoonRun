@@ -29,19 +29,21 @@ The beggining of this project turned out to be so much easier than the previous 
 - [ ] B-3: The source code and project structure comply with our adopted style guides.
 - [X] B-4: There is a sprite element in the level that the player can interact with, such as a collectible, an enemy, a book, or a switch.
 - [X] B-5: The camera follows the character through a world that is larger than one screen.
-- [ ] B-6: Include sound effects and music.
+- [X] B-6: Include sound effects and music.
 - [X] B-7: Include a HUD that tracks game-appropriate data such as score or time remaining.
 - [X] B-8: Include a clear example of <em>juice</em> and describe it in the <code>README.md</code>.
-- [ ] A-1: Include two clear examples of <em>juice</em> and describe them in the <code>README.md</code>.
+- [X] A-1: Include two clear examples of <em>juice</em> and describe them in the <code>README.md</code>.
 - [X] A-2: Earn two stars.
 - [X] ⭐ Animate the main character using either <code>AnimatedSprite</code> or cutout animation
 - [X] ⭐ Include parallax scrolling in the background.
 - [X] ⭐ Include tiles that can be passed in one direction, such as being able to jump up through a tile and land atop it.
 
 ## Juice
-The first bit of juice I added to my game was some dust particles that emit from the player when they land. This is to make it seem more realistic to being on the moon. 
+The first example of juice I added to my game was some dust particles that emit from the player when they land. This is to make it seem more realistic to being on the moon. 
 
-The second but of juice I added was the character doing a victory dance once they reach their goal. It gives the character more emotion and characteristics
+The second example of juice I added was the character doing a victory dance once they reach their goal. It gives the character more emotion and characteristics
+
+The third example of juice is that I added a little screen shake effect when the character falls far enough so that it gives the effect of a longer fall making you land harder.
 
 ## Third-Part Assets
 The tiles, player animations, and coins are from (Creative Commons Zero,CC0) http://creativecommons.org/publicdomain/zero/1.0/ This content is free to use in personal, educational and commercial projects. Support us by crediting Kenney or www.kenney.nl (this is not mandatory)

@@ -1,4 +1,4 @@
-[gd_scene load_steps=48 format=2]
+[gd_scene load_steps=49 format=2]
 
 [ext_resource path="res://assets/levelPieces/stoneCliff_left.png" type="Texture" id=1]
 [ext_resource path="res://assets/levelPieces/stone.png" type="Texture" id=2]
@@ -24,6 +24,7 @@
 [ext_resource path="res://assets/levelPieces/flagBlue2.png" type="Texture" id=22]
 [ext_resource path="res://assets/levelPieces/coinGold.png" type="Texture" id=23]
 [ext_resource path="res://assets/sounds/CoinCollection.wav" type="AudioStream" id=24]
+[ext_resource path="res://assets/levelPieces/rock.png" type="Texture" id=25]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 129, 0, 129, 128, 0, 128 )
@@ -460,6 +461,20 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 64, 0, 64 )
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 3/z_index = 0
+4/name = "rock.png 4"
+4/texture = ExtResource( 25 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 0, 64, 128, 64 )
+4/tile_mode = 0
+4/occluder_offset = Vector2( 0, 0 )
+4/navigation_offset = Vector2( 0, 0 )
+4/shape_offset = Vector2( 0, 0 )
+4/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+4/shape_one_way = false
+4/shape_one_way_margin = 0.0
+4/shapes = [  ]
+4/z_index = 0
 
 [sub_resource type="RectangleShape2D" id=21]
 extents = Vector2( 69.9999, 64.5711 )
@@ -489,13 +504,14 @@ tile_data = PoolIntArray( -1310672, -1073741808, 0, -1310671, -1073741823, 0, -1
 [node name="HalfTiles" type="TileMap" parent="." groups=[
 "HalfTiles",
 ]]
+position = Vector2( 0, 1 )
 scale = Vector2( 0.5, 0.5 )
 tile_set = SubResource( 20 )
 cell_size = Vector2( 128, 64 )
 collision_layer = 2
 collision_mask = 2
 format = 1
-tile_data = PoolIntArray( -917464, 1, 0, -917463, 3, 0, -655320, 1, 0, -655319, 3, 0, -393178, 1, 0, -393177, 3, 0, -131036, 1, 0, -131035, 3, 0, 131110, 1, 0, 131111, 3, 0, 327703, 1, 0, 327704, 3, 0, 524313, 1, 0, 524314, 3, 0, 655382, 1, 0, 655383, 3, 0 )
+tile_data = PoolIntArray( -1114069, 536870916, 0, -917464, 1, 0, -917463, 3, 0, -655320, 1, 0, -655319, 3, 0, -393178, 1, 0, -393177, 3, 0, -131036, 1, 0, -131035, 3, 0, 65556, 536870916, 0, 131110, 1, 0, 131111, 3, 0, 327703, 1, 0, 327704, 3, 0, 327721, 536870916, 0, 524313, 1, 0, 524314, 3, 0, 655382, 1, 0, 655383, 3, 0, 720933, 536870916, 0, 851990, 536870916, 0, 1114112, 4, 0, 1114125, 536870916, 0, 1114143, 536870916, 0, 1507347, 536870916, 0 )
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
@@ -526,7 +542,6 @@ shape = SubResource( 21 )
 [node name="FlagSprite" type="AnimatedSprite" parent="Flag"]
 frames = SubResource( 22 )
 animation = "FlagBlowing"
-frame = 1
 speed_scale = 0.28
 playing = true
 
