@@ -10,7 +10,7 @@ func _process(delta):
 
 func _on_Flag_body_entered(body):
 	if body.get_name() == "Player":
-		if _coins_collected == 2:
+		if _coins_collected == 3:
 			print("Flag Collected!")
 			_flag_collected = true
 
@@ -30,3 +30,11 @@ func _on_Coin2_body_entered(body):
 		$CoinCollection.play()
 		_coins_collected += 1
 		$Coin2.queue_free()
+
+
+func _on_Coin3_body_entered(body):
+	if body.get_name() == "Player":
+		print("Coin3 Collected!")
+		$CoinCollection.play()
+		_coins_collected += 1
+		$Coin3.queue_free()

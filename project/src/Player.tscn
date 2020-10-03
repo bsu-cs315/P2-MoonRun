@@ -13,8 +13,8 @@
 [ext_resource path="res://assets/playerAnimations/tile_0087.png" type="Texture" id=11]
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 8.56155
-height = 7.69493
+radius = 9.74409
+height = 3.41417
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
