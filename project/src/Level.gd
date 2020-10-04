@@ -1,7 +1,8 @@
 extends Node2D
 
-var _coins_collected = 0
 var play_dance = false
+
+var _coins_collected = 0
 var _flag_collected = false
 
 func _process(delta):

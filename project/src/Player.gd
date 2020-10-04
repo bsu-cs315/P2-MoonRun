@@ -31,7 +31,6 @@ func _process(delta):
 	
 	if !is_on_floor() and _velocity.y > 0:
 		_is_falling = true
-		print(_velocity)
 		if _velocity.y > 600:
 			_screen_shake = true
 	
