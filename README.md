@@ -6,16 +6,16 @@ This project is based on the requirements of my game programming class.
 https://bsu-cs315.github.io/P2-MoonRun/
 
 # Instructions For The Game
-Use the "Left" and "Right" arrow keys to move left and right. Use the "Spacebar" to jump and the "Down" arrow to crouch. Grab the coins and reach the flag!
+Use the "Left or A" and "Right or D" keys to move left and right. Use the "Spacebar, Up, or W" to jump and "Down, S, or CTRL" to crouch. Grab the coins and reach the flag!
 
 ## Project Report
 As I was finishing up this project I realized that I had a lot more fun with this one than I did on project 1. There was a lot more creative freedom in what the player can do and how the level is designed. There are definently a lot of new concepts and abilities that I learned. The hardest of which was figuring what to add to the game to "juice it up". All in all though, I had a lot of fun with this project and look forward to learning 3D.
 
-- [ ] D-1: The repository link is submitted to Canvas before the project deadline.
+- [X] D-1: The repository link is submitted to Canvas before the project deadline.
 - [X] D-2: The repository contains a <code>README.md</code> file in its top-level directory.
 - [X] D-3: The project content is eligible for an <a href="https://www.esrb.org/ratings-guide/">ESRB Rating</a> of M or less.
 - [X] C-1: Your repository is well-formed, with an appropriate <code>.gitignore</code> file and no unnecessary files tracked.
-- [ ] C-2: Your release is tagged using <a href="https://semver.org/">semantic versioning</a> where the major version is zero, the minor version is the iteration number, and the patch version is incremented as usual for each change made to the minor version, and the release name matches the release tag.
+- [X] C-2: Your release is tagged using <a href="https://semver.org/">semantic versioning</a> where the major version is zero, the minor version is the iteration number, and the patch version is incremented as usual for each change made to the minor version, and the release name matches the release tag.
 - [X] C-3: You have a clear legal right to use all incorporated assets, and the licenses for all third-party assets are tracked in the <code>README.md</code> file.
 - [X] C-4: The <code>README.md</code> contains instructions for how to play the game or such instructions are incorporated into the game itself.
 - [X] C-5: The project content is eligible for an <a href="https://www.esrb.org/ratings-guide/">ESRB Rating</a> of T or less.
